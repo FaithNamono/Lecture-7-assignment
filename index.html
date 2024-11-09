@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPORTS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 20px;
+    }
+    .image-container {
+        position: relative;
+        width: 600px; 
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .text {
+        position: absolute;
+        color: black;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.5); 
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .top-left {
+        top: 10px;
+        left: 10px;
+    }
+
+    .top-right {
+        top: 10px;
+        right: 10px;
+    }
+
+    .bottom-left {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .bottom-right {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .centered {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #009688;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    p {
+        line-height: 1.6;
+        color: #333;
+    }
+    .icon {
+        color: #ff5722;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: #007bff;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #0056b3;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        width: 45%;
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: #e0f7fa;
+        border-radius: 8px;
+        position: relative;
+    }
+    .info-box {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #ffc107;
+        padding: 5px 10px;
+        border-radius: 5px;
+        z-index: 5;
+    }
+
+    .overflow-box {
+        width: 100%;
+        height: 100px;
+        overflow-y: scroll;
+        padding: 10px;
+        background-color: #f9fbe7;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Importance of Sports</h1>
+        <p><i class="fas fa-running icon"></i> Embrace an active and healthy lifestyle</p>
+        <div class="image-container">
+            <img src="../LECTURE 7/IMG-20230823-WA0147.jpg" alt="netball team" width="400" height="200">
+            <div class="text top-left">Netball is health</div>
+            <div class="text top-right">netball is money</div>
+            <div class="text bottom-left">Netball is a life sport</div>
+            <div class="text bottom-right">Netball is my everything</div>
+            <div class="text centered">Broadway high school netball team</div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="section">
+            <h2><i class="fas fa-heartbeat icon"></i> Physical Benefits</h2>
+            <ul>
+                <li>Improves cardiovascular health</li>
+                <li>Enhances muscle strength and endurance</li>
+                <li>Boosts immune system</li>
+            </ul>
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i> Stay Active!
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-brain icon"></i> Mental Health Benefits</h2>
+            <ul>
+                <li>Reduces stress and anxiety</li>
+                <li>Enhances mood and self-esteem</li>
+                <li>Improves concentration and memory</li>
+            </ul>
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i> Keep Moving!
+            </div>
+        </div>
+    </div>
+    <div class="overflow-box">
+        <h3><i class="fas fa-list-ul icon"></i> Top 5 Sports to Play</h3>
+        <ol>
+            <li>Soccer - The world's most popular sport</li>
+            <li>Basketball - Great for building endurance and teamwork</li>
+            <li>Netball - Enhances coordination and agility</li>
+            <li>Tennis - Improves reflexes and hand-eye coordination</li>
+            <li>Swimming - Full-body workout with low impact</li>
+        </ol>
+    </div>
+
+    <footer>
+        <p>Learn more about the benefits of sports <a href="https://kawowo.com/" target="_blank">here</a>.</p>
+    </footer>
+</body>
+</html>
